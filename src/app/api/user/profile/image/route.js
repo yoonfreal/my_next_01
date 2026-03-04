@@ -1,6 +1,6 @@
-import { verifyJWT } from "@/lib/auth";
-import corsHeaders from "@/lib/cors";
-import { getClientPromise } from "@/lib/mongodb";
+import { verifyJWT } from "@/app/lib/auth";
+import corsHeaders from "@/app/lib/cors";
+import { getClientPromise } from "@/app/lib/mongodb";
 import { NextResponse } from "next/server";
 import { v4 as uuidv4 } from "uuid";
 import path from "path";
